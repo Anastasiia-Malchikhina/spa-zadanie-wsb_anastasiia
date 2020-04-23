@@ -1,0 +1,122 @@
+.cart {
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    z-index: 99;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 20px;
+    @media only screen and (max-width: 1100px) {
+        right: 50%;
+        transform: translate(50%);
+        align-items: center;
+     }
+    .checkout {
+        display: none;
+    }
+
+    .treatment-in-cart {
+        width: 100%;
+        display: none;
+        justify-content: space-between;
+        padding: 10px 5px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+        &:first-of-type {
+            padding-top: 30px;
+        }
+
+        &__wrapper {
+            display: flex;
+        }
+
+        &__name {
+            font-size: 14px;
+            max-width: 70%;
+        }
+
+        &__price {
+            font-weight: 400;
+            font-size: 16px;
+            margin-right: 25px;
+        }
+
+        .remove-treatment-from-cart {
+            color: white;
+
+        }
+
+        margin-bottom: 10px;
+    }
+
+    &__room {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        display: none;
+        margin-bottom: 10px;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 5px 5px 5px;
+        align-items: center;
+
+        &:first-of-type {
+            padding-top: 30px;
+        }
+
+        &--name {
+            font-size: 18px;
+            margin-right: 5px;
+        }
+
+        &--price {
+            margin-right: 10px;
+            margin-right: 25px;
+        }
+
+        a {
+            color: white;
+        }
+    }
+
+    &__icon {
+        width: 30px;
+        cursor: pointer;
+        margin-right: 20px;
+        @media only screen and (min-width: 991px) {
+            width: 50px;
+         }
+    }
+
+    &__open {
+        background: #424B54;
+        width: 350px;
+        color: white;
+        
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+    
+         }
+        .cart__room {
+            display: flex;
+        }
+
+        .treatment-in-cart {
+            display: flex;
+        }
+
+        .checkout {
+            display: block;
+            color: white;
+        }
+    }
+
+    .booking-date {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            font-size: 14px;
+        }
+    }
+}

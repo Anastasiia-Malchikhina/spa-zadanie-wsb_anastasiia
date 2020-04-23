@@ -1,0 +1,36 @@
+.navbar.navbar-dark{
+    background-color: #424B54;
+    
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 11;
+    @media only screen and (min-width: 991px) {
+        height: 70px;
+    }
+    .navbar-nav {
+        z-index: 9999;
+        margin-right: 50px;
+    }
+    a {
+        @media only screen and (max-width: 991px) {
+           padding-left: 0;
+        }
+    }
+}
+.text-muted {
+    background-color: #424B54;
+    width: 100%;
+    color: $white;
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    p {
+        color: $white;
+        margin: 0;
+        font-size: 12px;
+        text-align: center;
+    }
+}

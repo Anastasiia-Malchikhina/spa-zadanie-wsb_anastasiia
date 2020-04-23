@@ -1,0 +1,230 @@
+{
+  "users": [],
+  "rooms": [
+    {
+      "id": 1,
+      "image": "https://image.freepik.com/darmowe-zdjecie/wnetrze-nowoczesnego-komfortowym-pokoju-hotelowym_1232-1822.jpg",
+      "name": "Room 1",
+      "beds": 1,
+      "guests": 1,
+      "price": 170,
+      "seaView": false,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    },
+    {
+      "id": 2,
+      "image": "https://image.freepik.com/darmowe-zdjecie/nowoczesny-apartament-typu-studio-z-sypialni-i-przestrzeni-zyciowej_1262-12375.jpg",
+      "name": "Room 2",
+      "beds": 1,
+      "guests": 2,
+      "price": 240,
+      "seaView": true,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    },
+    {
+      "id": 3,
+      "image": "https://image.freepik.com/darmowe-zdjecie/luksusowa-sypialnia-w-hotelu_1150-10836.jpg",
+      "name": "Room 3",
+      "beds": 2,
+      "guests": 3,
+      "price": 290,
+      "seaView": true,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    },
+    {
+      "id": 4,
+      "image": "https://image.freepik.com/darmowe-zdjecie/3d-renderingu-sypialni-luksusowy-nowozytny-apartament-w-hotelu_105762-569.jpg",
+      "name": "Room 4",
+      "beds": 2,
+      "guests": 4,
+      "price": 340,
+      "seaView": true,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    }
+    ,
+    {
+      "id": 5,
+      "image": "https://image.freepik.com/darmowe-zdjecie/australijska-nowoczesna-sypialnia-wnetrza-okna-natury_31965-3690.jpg",
+      "name": "Room 5",
+      "beds": 4,
+      "guests": 4,
+      "price": 540,
+      "seaView": false,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    }
+    ,
+    {
+      "id": 6,
+      "image": "https://image.freepik.com/darmowe-zdjecie/3d-odplaca-sie-nowozytnego-luksusowego-sypialnia-apartament-przy-noca-z-przytulnym-projektem_105762-577.jpg",
+      "name": "Room 6",
+      "beds": 1,
+      "guests": 1,
+      "price": 140,
+      "seaView": false,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    }
+    ,
+    {
+      "id": 7,
+      "image": "https://image.freepik.com/darmowe-zdjecie/wnetrze-nowoczesnego-komfortowym-pokoju-hotelowym_1232-1822.jpg",
+      "name": "Room 7",
+      "beds": 2,
+      "guests": 2,
+      "price": 290,
+      "seaView": true,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    }
+    ,
+    {
+      "id": 8,
+      "image": "https://image.freepik.com/darmowe-zdjecie/nowoczesne-luksusowe-wnetrze-sypialni_128319-18.jpg",
+      "name": "Room 8",
+      "beds": 1,
+      "guests": 1,
+      "price": 140,
+      "seaView": false,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    }
+    ,
+    {
+      "id": 9,
+      "image": "https://image.freepik.com/darmowe-zdjecie/nowoczesne-podwojne-lozko-stojace-przy-drewnianej-scianie-wnetrze-z-zielonymi-i-rozowymi-wygodnymi-poduszkami-elegancka-sypialnia-z-wygodnym-lozkiem-king-size-styl-loftu_85672-1572.jpg",
+      "name": "Room 9",
+      "beds": 4,
+      "guests": 2,
+      "price": 970,
+      "seaView": true,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    },
+    {
+      "id": 10,
+      "image": "https://image.freepik.com/darmowe-zdjecie/3d-odplaca-sie-nowozytnego-luksusowego-sypialnia-apartament-przy-noca-z-przytulnym-projektem_105762-577.jpg",
+      "name": "Room 10",
+      "beds": 4,
+      "guests": 2,
+      "price": 970,
+      "seaView": true,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    }
+    ,
+    {
+      "id": 11,
+      "image": "https://image.freepik.com/darmowe-zdjecie/3d-odplaca-sie-pieknego-luksusowego-sypialnia-apartament-w-hotelu-z-tv_105762-859.jpg",
+      "name": "Room 11",
+      "beds": 4,
+      "guests": 2,
+      "price": 970,
+      "seaView": true,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    }
+    ,
+    {
+      "id": 12,
+      "image": "https://image.freepik.com/darmowe-zdjecie/przytulny-apartament-typu-studio-z-sypialnia-i-salonem_1262-12323.jpg",
+      "name": "Room 12",
+      "beds": 4,
+      "guests": 2,
+      "price": 970,
+      "seaView": true,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    }
+  ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  "treatments": [
+    {
+      "id": 1,
+      "image": "https://image.freepik.com/darmowe-zdjecie/zestaw-spa-z-recznikiem-mydlem-i-sola_23-2148268482.jpg",
+      "name": " EXFOLIATING TREATMENTS",
+      "area": "back",
+      "time": 30,
+      "price": 80,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    },
+    {
+      "id": 2,
+      "image": "https://image.freepik.com/darmowe-zdjecie/dekoracja-spa-z-zapalonymi-swiecami-i-recznikami_23-2148268445.jpg",
+      "name": "SWITZERLAND TREATMENTS",
+      "area": "back",
+      "time": 20,
+      "price": 70,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    },
+    {
+      "id": 3,
+      "image": "https://image.freepik.com/darmowe-zdjecie/naturalne-elementy-spa-ze-swiecami_23-2148199488.jpg",
+      "name": "FACE, NECK MASSAGE",
+      "area": "face",
+      "time": 15,
+      "price": 50,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    },
+    {
+      "id": 4,
+      "image": "https://image.freepik.com/darmowe-zdjecie/kompozycja-z-kamieniami-spa-zapalonymi-swiecami-i-recznikami_23-2148268434.jpg",
+      "name": "EYEBROW ARCHITECTURE",
+      "area": "legs",
+      "time": 25,
+      "price": 100,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    },
+    {
+      "id": 5,
+      "image": "https://image.freepik.com/darmowe-zdjecie/widok-z-gory-koncepcja-spa-z-kobieta_23-2147816921.jpg",
+      "name": "SKIN SPA SYSTEM",
+      "area": "hands",
+      "time": 45,
+      "price": 150,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    },
+    {
+      "id": 6,
+      "image": "https://image.freepik.com/darmowe-zdjecie/wysokiego-kata-widok-kobieta-otrzymywa-twarzowa-maske-przy-piekno-salonem_23-2147939942.jpg",
+      "name": "LYCON WAXING",
+      "area": "body",
+      "time": 60,
+      "price": 200,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    },
+    {
+      "id": 7,
+      "image": "https://image.freepik.com/darmowe-zdjecie/zdjecie-pieknej-kobiety-w-salonie-masazu_155003-2714.jpg",
+      "name": "ALESSANDRO PARAFFIN",
+      "area": "body",
+      "time": 45,
+      "price": 120,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    },
+    {
+      "id": 8,
+      "image": "https://image.freepik.com/darmowe-zdjecie/koncepcja-spa-i-masazu-z-kobieta_23-2147817013.jpg",
+      "name": "COOLCELL",
+      "area": "body",
+      "time": 120,
+      "price": 240,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    },
+    {
+      "id": 9,
+      "image": "https://image.freepik.com/darmowe-zdjecie/kosmetolog-stosuje-maske-na-twarzy-klienta-w-salonie-pieknosci_1303-16775.jpg",
+      "name": "HYDRAFACIAL",
+      "area": "body",
+      "time": 145,
+      "price": 120,
+      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae lacinia nulla, et placerat ante. Morbi pellentesque varius justo, sed cursus nisl euismod vitae. Morbi suscipit cursus leo, sit amet convallis orci. Mauris condimentum laoreet ornare. Nunc nec auctor erat. Vivamus vel porttitor nulla. Curabitur rhoncus consequat augue. "
+    }
+  ]
+}
+ 

@@ -1,0 +1,203 @@
+$main-color: #9B6A6C;
+.rooms {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+
+  .room-desc {
+    width: 100%;
+    margin: 15px;
+    box-sizing: border-box;
+    @media only screen and (min-width: 768px) {
+      width: calc(50% - 30px);
+    }
+    @media only screen and (min-width: 1200px) {
+        width: calc(33% - 30px);
+    }
+    &__add-room {
+      display: block;
+      margin: 10px auto 10px auto;
+      color: white!important;
+      background: $main-color;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 12px;
+      width: 170px;
+      cursor: pointer;
+
+      &:hover {
+        color: white;
+        
+      }
+
+    }
+
+    &__title {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    &__img {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    &__text {
+      font-size: 12px;
+    }
+
+    .icon {
+      width: 30px;
+      margin-right: 5px;
+    }
+
+    &__sea-view {
+      display: flex;
+      align-items: flex-end;
+      span {
+        display: flex;
+        align-items: flex-end;
+        margin-right: 10px;
+      }
+    }
+
+    &__row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 15px;
+    }
+
+    &__date-label {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    &__guests {
+      margin: 0;
+      display: flex;
+      align-items: flex-end;
+      margin-right: 20px;
+
+      span {
+        display: flex;
+        align-items: flex-end;
+        margin-right: 5px;
+      }
+    }
+
+    &__price {
+      font-size: 22px;
+      display: flex;
+      align-items: flex-end;
+      margin-right: 20px;
+      margin-bottom: 20px;
+
+      span {
+        display: flex;
+        align-items: flex-end;
+        margin-right: 5px;
+      }
+    }
+  }
+
+}
+
+.main-heading {
+  padding-top: 100px;
+  text-align: center;
+
+  margin-bottom: 30px;
+}
+
+.booking {
+  min-height: 100vh;
+
+  &__room {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    @media only screen and (max-width: 768px) {
+      padding: 10px;
+    }
+
+    &--price {
+      font-weight: 500;
+      font-size: 20px;
+      max-width: 50%;
+      @media only screen and (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .price-icon {
+    width: 30px;
+    margin-right: 10px;
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .btn-dark {
+    background-color: $main-color;
+    border-color: $main-color;
+    margin-left: 15px;
+    @media only screen and (max-width: 768px) {
+      padding: 2px 6px;
+      margin-left: 10px;
+    }
+  }
+
+  .name-date {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+
+    h4 {
+      margin-right: 30px;
+      @media only screen and (max-width: 768px) {
+        font-size: 16px !important;
+        margin-right: 10px;
+      }
+    }
+
+    .badge {
+      font-size: 12px !important;
+      margin: 5px 0;
+      background: $main-color;
+      padding: 3px 6px;
+      @media only screen and (min-width: 768px) {
+        font-size: 16px !important;
+        padding: 6px 12px;
+      }
+
+    }
+
+    svg {
+      margin-right: 10px;
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+
+    .booking-date {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  &__treatment--name {
+    @media only screen and (max-width: 768px) {
+      font-size: 14px;
+    }
+  }
+}
+
+

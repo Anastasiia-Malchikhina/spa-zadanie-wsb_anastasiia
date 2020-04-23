@@ -1,0 +1,60 @@
+$main-color: #9B6A6C;
+$white: #ffffff;
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@import '../node_modules/font-awesome/scss/font-awesome.scss';
+@import './scss/header.scss';
+@import './scss/cart.scss';
+@import './scss/treatment.scss';
+
+
+.top-home {
+    position: relative;
+    @include flex-center;
+    height: 100vh;
+    flex-direction: column;
+
+    &__hero {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+
+    &__title {
+        color: #424B54;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-size: 28px;
+
+        strong {
+            display: block;
+        }
+
+        @media only screen and (min-width: 768px) {
+            font-size: 42px;
+        }
+    }
+
+    &__button {
+        color: $white;
+        background: #9B6A6C;
+        padding: 15px 35px;
+        border-radius: 25px;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        &:hover {
+            text-decoration: none;
+            background-color: #424B54;
+            color: $white;
+        }
+    }
+}
