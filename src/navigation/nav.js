@@ -12,19 +12,16 @@ import { treatmentsService } from '../common/treatments-service';
 export const nav = () => {
   const navbar = $(`
   <nav class="navbar navbar-expand-lg  navbar-dark">
-  <div class="container">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-     
-    </ul>
+    <div class="container">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto"></ul>
+      </div>
     </div>
-  </div>
-</nav>
- 
+  </nav>
 `);
 
   const navItems = routes.map(route => {
@@ -62,9 +59,7 @@ export const nav = () => {
         const helpDiv = $("<div class='treatment-in-cart__wrapper'></div>");
         helpDiv.append(treatmentInCart_Price)
                 .append(removeCartTreatment);
-        treatmentInCart.append(treatmentInCart_Name)
-
-                      .append(helpDiv);
+        treatmentInCart.append(treatmentInCart_Name).append(helpDiv);
 
         koszyk.append(treatmentInCart);
         $('.remove-treatment-from-cart').unbind().on('click', function () {
@@ -115,8 +110,7 @@ export const nav = () => {
     </div>`)
 
   }
-  
-
+ 
   navbar.append(koszyk);
   navbar.append(itSpaCart());
   return navbar;
