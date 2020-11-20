@@ -1,14 +1,6 @@
 import $ from 'jquery';
 import imageURL from '../img/top-hero.jpg';
-
-
 import { toggleCart } from './rooms-list-item';
-// import { roomsList } from './rooms-list';
-
-// import { itSpaCart } from '../cart/it-spa-cart';
-
-
-// import Cookies from 'js-cookie';
 
 export const home = () => {
   const fragment = $(new DocumentFragment());
@@ -21,14 +13,8 @@ export const home = () => {
     </div>
   `);
   
-
-    fragment
-
-    .append(homeTopDiv);
-
-
-
-    toggleCart;
+  fragment.append(homeTopDiv);
+  toggleCart;
   return fragment;
 
 };
