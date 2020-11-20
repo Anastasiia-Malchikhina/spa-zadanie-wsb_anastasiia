@@ -14,13 +14,9 @@ export class Router {
   mount(outlet) {
     this.outlet = outlet;
 
-    // detail to, np. { path: '/booking' }
     this.body.on(routeChange, (event, detail) => {
       this.navigate(detail.path);
     });
-
-    // TODO: uzyj zdarzenia 'popstate', aby wyrenderowac odpowiednia
-    // sciezke, gdy uzytkownik klika Wstecz (<-) lub Naprzod (->)
   }
 
   init() {
@@ -36,9 +32,7 @@ export class Router {
   }
 
   navigate(path, data = {}) {
-    // sciezka istnieje, mozna nawigowac
     if (this.has(path)) {
-      // { path: '/booking', data: {}, component: booking }
       const { component } = this.get(path);
       const html = component();
       this.outlet.empty().append(html);
